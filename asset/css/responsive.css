@@ -1,0 +1,148 @@
+/* Mobile: width < 740px (46.1875em) */
+@media only screen and (max-width: 46.1875em) {
+    .header__logo__img {
+        padding: 20px 0;
+    }
+
+    .contain {
+        margin-top: 67px;
+    }
+
+    .nav__list {
+        display: block;
+        background-color: var(--gray-f9);
+        height: 0;
+        overflow: hidden;    
+    }
+
+    .nav__link {
+        display: block;
+        padding: 18px 20px;    
+    }
+
+    .header__wrapper .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header__wrapper .col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .menu {
+        display: block;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        padding: 16px 16px 26px;
+}
+    
+    .menu__icon {
+        padding: 4px;
+        font-size: 2.6rem;
+    }
+
+    .gallery__link {
+        height: 200px;
+    }
+}
+
+/* Mobile and Tablet: width < 1024px (63.9375em) */
+@media only screen and (max-width: 63.9375em) {
+    .header {
+        /* height: 0; */
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    
+        background-color: var(--gray-e9);    
+    }
+
+    .header__logo {
+        text-align: center;
+    }
+    
+    .header__logo__link {
+        margin: 0 auto;
+    }
+
+    .slider__content {
+        width: 96%;
+
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .slider__title {
+        margin-left: 0;
+    }
+
+    .slider__desc {
+        margin-left: 0;
+    }
+
+    .slider__btn {
+        margin: 0 auto;
+    }
+    
+    .process__text {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+/* Tablet: width >= 740px (46.25em) and width < 1024px (63.9375em)*/
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {  
+    .header__logo__img {
+        padding: 8px 0;
+    }
+    .nav__link {
+        padding: 10px 0;
+    }
+
+    .contain {
+        margin-top: 87px;
+    }
+
+    .slider__content {
+        width: 70%;
+
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .slider__title {
+        margin-left: 0;
+    }
+
+    .slider__desc {
+        margin-left: 0;
+    }
+    
+    .slider__btn {
+        margin: 0 auto;
+    }
+
+}
+/* PC: width >= 1024 (64em) */
+@media only screen and (min-width: 64em) {
+   
+}
+
+/* PC: width >= 1113px */
+@media only screen and (max-width: 69.5625em) {
+    .ps__content {
+        /* background-color: aquamarine; */
+        padding: 120px 68px;
+    }
+}
